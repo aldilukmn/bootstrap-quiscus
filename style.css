@@ -1,0 +1,10 @@
+.btn-primary {
+  background-color: #01416c !important;
+  border-color: #01416c !important;
+}
+
+li .text-dark,
+figcaption .text-dark,
+main .text-dark {
+  color: #01416c !important;
+}

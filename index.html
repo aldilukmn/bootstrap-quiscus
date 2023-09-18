@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="container">
+      <!-- Navbar Section -->
+      <nav class="navbar navbar-expand-xxl mt-3 mb-5 pb-5">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/qiscus.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-3">
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Why Qiscus
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Solutions
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-dark" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-3 ms-lg-4">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="./assets/img/eva_globe-2-fill.svg" alt="" />
+                  English
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-3 ms-lg-4">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sign In
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-3 ms-lg-4">
+                <button class="btn btn-primary py-2 px-3 fw-semibold">
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Jumbotron Section -->
+      <section class="d-xxl-flex justify-content-center">
+        <figcaption
+          class="align-self-center text-center text-xxl-start col-12 col-xxl-6 ms-xxl-5"
+        >
+          <h1 class="mb-5 text-dark fw-bold" style="font-size: 38px">
+            Omnichannel <span class="text-warning">Support</span> Platform to
+            Improve Sales and Enhance Customer Loyalty
+          </h1>
+          <p class="fw-semibold fs-5 text-dark">
+            Converse directly with customers on multiple scalable channels in
+            one platform to provide the best customer experience with Qiscus.
+          </p>
+          <p class="fw-semibold fs-5 text-dark mb-5">
+            Contact us and find out how Qiscus can help your business grow!
+          </p>
+          <button class="btn btn-primary px-4 py-2 fw-semibold">
+            Get Demo + Free Trial
+          </button>
+        </figcaption>
+        <figure class="mt-xxl-4 me-xxl-2 text-xxl-end mt-5 text-center">
+          <img
+            src="./assets/img/home_640.jpg"
+            class="col-xxl-10 col-lg-6 col-sm-8 col-10"
+          />
+        </figure>
+      </section>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <!-- Sponsorships Section -->
+      <section class="container mt-5 pt-5">
+        <h2
+          class="mb-5 pb-3 text-dark fw-bold text-center ms-4"
+          style="font-size: 32px"
+        >
+          Trusted by 2000+ Reputable Companies
+        </h2>
+        <div class="container text-center g-0 mb-5" style="width: 90%">
+          <div class="row row-cols-8 gx-4">
+            <div class="col">
+              <img src="./assets/img/halodoc_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/ruang-guru_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/ayo-src_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/jkn_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/efishery_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/jenius_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/manulife-investment_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/lemonilo_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/bri-life_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/seabank_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/synnex_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/raya_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/daytrans_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/fif-group_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/pizza-hut_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/wardah_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/bridestory_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/kredivo_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/modena_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/kuncie_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/polytron_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/bareksa_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/bluebird_120.jpg" />
+            </div>
+            <div class="col">
+              <img src="./assets/img/indosat-oredoo_120.jpg" />
+            </div>
+          </div>
+        </div>
+        <p class="text-dark text-center fs-3">and many more</p>
+      </section>
+
+      <!-- Features Section -->
+      <section class="container mt-5 pt-5">
+        <!-- Feature 1 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column-reverse text-xxl-start text-center"
+        >
+          <div
+            class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4 ps-xxl-3"
+          >
+            <h3 class="fs-4 mb-4">
+              Manage Conversations of 20+ Channels on One Platform
+            </h3>
+            <div class="col-xxl-1"></div>
+            <p class="fs-5">
+              Responding to every customer chat via live chat, WhatsApp,
+              Instagram, Facebook, Tokopedia and more has become faster and
+              easier from just one platform.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12">
+            <img
+              src="./assets/img/manage-conversation_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4"
+            />
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column text-xxl-start text-center"
+        >
+          <div class="col-xxl-5 col-12 ps-xxl-3">
+            <img
+              src="./assets/img/collect-leads-seamlessly_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4 ms-xxl-4"
+            />
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4">
+            <h3 class="fs-4 mb-4">Generate More Leads Seamlessly</h3>
+            <p class="fs-5">
+              The chat feature provided by Qiscus is perfect for lead
+              generation, complete with a comfortable user experience and simple
+              implementation process.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column-reverse text-xxl-start text-center"
+        >
+          <div
+            class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4 ps-xxl-3"
+          >
+            <h3 class="fs-4 mb-4">
+              Increase Sales Conversions Through Conversation
+            </h3>
+            <div class="col-xxl-1"></div>
+            <p class="fs-5">
+              Prospective customer follow-ups are made more accessible for your
+              team. Meaningful conversations build relationships and lead to
+              more deals.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12">
+            <img
+              src="./assets/img/increase-rate-conversion_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4"
+            />
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column text-xxl-start text-center"
+        >
+          <div class="col-xxl-5 col-12 ps-xxl-3">
+            <img
+              src="./assets/img/provide-excellent-support_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4 ms-xxl-4"
+            />
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4">
+            <h3 class="fs-4 mb-4">
+              Provide Excellent and Quick Support So Customers Love You
+            </h3>
+            <p class="fs-5">
+              Automated agent allocation, performance analytics, and CSAT
+              features help your team provide the best support service to every
+              customer.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column-reverse text-xxl-start text-center"
+        >
+          <div
+            class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4 ps-xxl-3"
+          >
+            <h3 class="fs-4 mb-4">
+              Make Teamwork More Effective with Human-Bot Collaboration
+            </h3>
+            <div class="col-xxl-1"></div>
+            <p class="fs-5">
+              The chatbot solution from Qiscus optimizes your sales or support
+              team performance. Implementation is also easy and fast with our
+              No-Code Chatbot technology.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12">
+            <img
+              src="./assets/img/human-bot-collaboration_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4"
+            />
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column text-xxl-start text-center"
+        >
+          <div class="col-xxl-5 col-12 ps-xxl-3">
+            <img
+              src="./assets/img/auto-personalized-message_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4 ms-xxl-4"
+            />
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4">
+            <h3 class="fs-4 mb-4">Send Automatic and Personalized Messages</h3>
+            <p class="fs-5">
+              Send personalized notification messages, OTPs, information on
+              transactions, promotions, and many other message types in a more
+              personalized way to every customer.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+        </div>
+
+        <!-- Feature 7 -->
+        <div
+          class="d-flex ms-xxl-5 ms-0 mb-5 flex-xxl-row flex-column-reverse text-xxl-start text-center"
+        >
+          <div
+            class="col-xxl-5 col-12 text-dark align-self-center ms-xxl-4 ps-xxl-3"
+          >
+            <h3 class="fs-4 mb-4">Flexibly Integrate into Various Systems</h3>
+            <div class="col-xxl-1"></div>
+            <p class="fs-5">
+              Solutions from Qiscus are able to be integrated into various
+              systems or other applications flexibly according to your business’
+              requirements.
+            </p>
+          </div>
+          <div class="col-xxl-1"></div>
+          <div class="col-xxl-5 col-12">
+            <img
+              src="./assets/img/flexible-integration_640.jpg"
+              class="rounded-4 w-100 mb-lg-5 mb-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Form Section -->
+      <section class="container-fluid bg-primary-subtle pt-5">
+        <div class="row justify-content-center row-cols-1">
+          <div class="col-xxl-5 col-12 text-center text-dark">
+            <h2 class="fw-bolder mb-4">
+              Get a Free Trial and Solutions Demo from Qiscus
+            </h2>
+            <p class="fs-5 mb-4">
+              Fill in the form below and we will contact you right away to
+              arrange a demo. Our team will show you how Qiscus can help your
+              business continue to grow.
+            </p>
+          </div>
+          <div class="col-xxl-8 col-12 mb-5">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <form class="row gx-5 gy-3 px-4 py-3">
+                  <div class="col-xxl-6">
+                    <label
+                      for="inputEmail4"
+                      class="form-label"
+                      style="font-size: 14px"
+                      >COMPANY NAME</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control p-3"
+                      id="inputEmail4"
+                      placeholder="Company Name"
+                      style="font-size: 14px"
+                      required
+                    />
+                  </div>
+                  <div class="col-xxl-6">
+                    <label
+                      for="inputPassword4"
+                      class="form-label"
+                      style="font-size: 14px"
+                      >WORK EMAIL (ANDY@COMPANY.COM)</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control p-3"
+                      id="inputPassword4"
+                      placeholder="Work Email (andy@company.com)"
+                      required
+                    />
+                  </div>
+                  <div class="col-xxl-6">
+                    <label
+                      for="inputPassword4"
+                      class="form-label"
+                      style="font-size: 14px"
+                      >POSITION</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control p-3"
+                      id="inputPassword4"
+                      placeholder="CEO"
+                      required
+                    />
+                  </div>
+                  <div class="col-xxl-6">
+                    <label
+                      for="inputState"
+                      class="form-label"
+                      style="font-size: 14px"
+                      >NUMBER OF EMPLOYEES</label
+                    >
+                    <select id="inputState" class="form-select p-3" required>
+                      <option selected>Choose...</option>
+                      <option>1 - 50 Employees</option>
+                      <option>51 - 100 Employees</option>
+                      <option>101 - 500 Employees</option>
+                      <option>501 - 1000 Employees</option>
+                      <option>1000+ Employees</option>
+                    </select>
+                  </div>
+                  <div class="col-xxl-6">
+                    <label
+                      for="inputPassword4"
+                      class="form-label"
+                      style="font-size: 14px"
+                      >MOBILE PHONE NUMBER (+62812345678)
+                    </label>
+                    <input
+                      type="password"
+                      class="form-control p-3"
+                      id="inputPassword4"
+                      placeholder="Mobile Phone Number (+62812345678)"
+                      required
+                    />
+                  </div>
+                  <div class="col-xxl-6">
+                    <label
+                      for="inputState"
+                      class="form-label"
+                      style="font-size: 14px"
+                      >HOW DID YOU FIND US?</label
+                    >
+                    <select id="inputState" class="form-select p-3" required>
+                      <option selected>Choose...</option>
+                      <option>Social Media</option>
+                      <option>Mass Media</option>
+                      <option>Referral</option>
+                      <option>Event</option>
+                      <option>Others</option>
+                    </select>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-primary w-100 py-2">
+                      Get Demo + Free Trial
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="text-white" style="background-color: #01416c !important">
+      <div class="container pb-3">
+        <div class="row pb-5 ms-xxl-5 ms-2 pt-5">
+          <div class="col-xxl-5 col-11 mb-4">
+            <div class="d-flex flex-column text-start">
+              <div class="col mb-5">
+                <img src="./assets/img/qiscus-white.svg" />
+              </div>
+              <div class="col">
+                <h6 class="mb-0">Singapore:</h6>
+                <p>1 Coleman Street, #10-06 The Adelphi, Singapore 179803</p>
+              </div>
+              <div class="col">
+                <h6 class="mb-0">Jakarta:</h6>
+                <p>
+                  Sampoerna Strategic Square North Tower Lantai 25, Jl. Jenderal
+                  Sudirman No.Kav. 45, Karet Semanggi, Setiabudi, South Jakarta
+                  City, Jakarta 12930
+                </p>
+              </div>
+              <div class="col">
+                <h6 class="mb-0">Yogyakarta:</h6>
+                <p>Jl. Timoho No. 43, Muja Muju, Yogyakarta 55165</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-11 mb-4">
+            <div class="d-flex flex-column">
+              <div class="col">
+                <h6>Products</h6>
+              </div>
+              <div class="col">
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus Omnichannel Chat</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus Omnichannel CRM</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus Ticketing</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus App Center</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >WhatsApp Business API</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Instagram Messenger API</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >In-App Chat SDK</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Chatbot and Robolabs</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus Call Centre</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus AI Assistant</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus CDP</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus Shop</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a
+                    href="#"
+                    class="link-light linkund link-underline-opacity-0"
+                    >Qiscus Survey</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-11 mb-4">
+            <div class="d-flex flex-column">
+              <div class="col">
+                <h6>Products</h6>
+              </div>
+              <div class="col">
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Contact Sales</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Help Center</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >White Paper</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Blog</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Documentation</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-11">
+            <div class="d-flex flex-column">
+              <div class="col">
+                <h6>Company</h6>
+              </div>
+              <div class="col">
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >About Us</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Press & Media</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Privacy Policy</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Term of Service</a
+                  >
+                </p>
+                <p class="mb-1">
+                  <a href="#" class="link-light link-underline-opacity-0"
+                    >Career</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-bottom border-1 mb-4"></div>
+        <div class="d-xxl-flex text-center">
+          <div>
+            <h6 class="text-xxl-start">Qiscus &copy; 2023</h6>
+            <figure>
+              <img src="./assets/img/icon-linkedin.svg" />
+              <img src="./assets/img/icon-facebook.svg" class="ms-2" />
+              <img src="./assets/img/icon-twitter.svg" class="ms-2" />
+              <img src="./assets/img/icon-instagram.svg" class="ms-2" />
+              <img src="./assets/img/icon-email.svg" class="ms-2" />
+            </figure>
+          </div>
+          <figure class="ms-auto">
+            <img src="./assets/img/bsi.svg" />
+            <img src="./assets/img/logo-kominfo.svg" />
+          </figure>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
